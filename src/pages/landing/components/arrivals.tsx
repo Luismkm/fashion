@@ -4,12 +4,17 @@ import arrival1 from '../../../assets/arrival1.png';
 import arrival2 from '../../../assets/arrival2.png';
 import arrival3 from '../../../assets/arrival3.png';
 
+import detail from '../../../assets/detail_arrivals.svg';
+
 export function Arrivals() {
   return (
     <section className="max-w-[1290px] mx-auto mt-[69px]">
-      <strong className="text-5xl font-black mb-[92px] block">
-        NEW ARRIVALS
-      </strong>
+      <div className="relative">
+        <img src={detail} alt="" className="absolute -z-10 left-[198px] top-[20px]" />
+        <strong className="text-5xl font-black mb-[92px] block">
+          NEW ARRIVALS
+        </strong>
+      </div>
       <div className="flex flex-row gap-12">
         <div className="w-[484px] h-[704px]">
           <img src={arrival1} alt="" />

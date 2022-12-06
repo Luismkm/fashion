@@ -3,12 +3,17 @@ import { ArrowRight } from 'phosphor-react';
 import favourite1 from '../../../assets/favourite1.png';
 import favourite2 from '../../../assets/favourite2.png';
 
+import detail from '../../../assets/detail.svg';
+
 export function Favourite() {
   return (
     <section className="max-w-[1290px] mx-auto">
-      <strong className="pt-[100px] pb-[50px] block text-4xl">
-        Young’s Favourite
-      </strong>
+      <div className="relative h-[80px] mt-20 mb-24">
+        <img src={detail} alt="" className="absolute bottom-[26px] left-[260px] -z-10" />
+        <strong className="block text-5xl">
+          Young’s Favourite
+        </strong>
+      </div>
       <div className="flex gap-8">
         <div>
           <img src={favourite1} alt="" />
