@@ -16,8 +16,12 @@ export function Arrivals() {
         </strong>
       </div>
       <div className="flex flex-row gap-12">
-        <div className="w-[484px] h-[704px]">
-          <img src={arrival1} alt="" />
+        <div>
+          <div className="w-[400px] h-[600px] cursor-pointer overflow-hidden bg-black-800 rounded-[14px]">
+            <div className="w-[100%] h-[100%] overflow-hidden">
+              <img src={arrival1} alt="" className="w-[100%] h-[100%] hover:ease-in-[cubic-bezier(0.25, 0.45, 0.45, 0.95] hover:scale-[1.08] hover:duration-[5000ms]" />
+            </div>
+          </div>
           <div className="flex flex-row justify-between items-center h-[76px] bg-white-300">
             <div className="flex flex-col">
               <span className="text-black-850 text-xl font-medium">
@@ -30,8 +34,49 @@ export function Arrivals() {
             <ArrowRight size={32} color="#797979" />
           </div>
         </div>
+
         <div>
-          <img src={arrival2} alt="" />
+          <div className="w-[400px] h-[600px] cursor-pointer overflow-hidden bg-black-800 rounded-[14px]">
+            <div className="w-[100%] h-[100%] overflow-hidden">
+              <img src={arrival2} alt="" className="w-[100%] h-[100%] hover:ease-in-[cubic-bezier(0.25, 0.45, 0.45, 0.95] hover:scale-[1.08] hover:duration-[5000ms]" />
+            </div>
+          </div>
+          <div className="flex flex-row justify-between items-center h-[76px] bg-white-300">
+            <div className="flex flex-col">
+              <span className="text-black-850 text-xl font-medium">
+                Hoodies & Sweetshirt
+              </span>
+              <span className="text-gray-600 text-lg">
+                Explore Now!
+              </span>
+            </div>
+            <ArrowRight size={32} color="#797979" />
+          </div>
+        </div>
+
+        <div>
+          <div className="w-[400px] h-[600px] cursor-pointer overflow-hidden bg-black-800 rounded-[14px]">
+            <div className="w-[100%] h-[100%] overflow-hidden">
+              <img src={arrival3} alt="" className="w-[100%] h-[100%] hover:ease-in-[cubic-bezier(0.25, 0.45, 0.45, 0.95] hover:scale-[1.08] hover:duration-[5000ms]" />
+            </div>
+          </div>
+          <div className="flex flex-row justify-between items-center h-[76px] bg-white-300">
+            <div className="flex flex-col">
+              <span className="text-black-850 text-xl font-medium">
+                Hoodies & Sweetshirt
+              </span>
+              <span className="text-gray-600 text-lg">
+                Explore Now!
+              </span>
+            </div>
+            <ArrowRight size={32} color="#797979" />
+          </div>
+        </div>
+
+        {/* <div>
+          <div className="w-[430px] h-[628px] bg-black-800">
+            <img src={arrival2} alt="" />
+          </div>
           <div className="flex flex-row justify-between items-center h-[76px] bg-white-300">
             <div className="flex flex-col">
               <span className="text-black-850 text-xl font-medium">
@@ -45,7 +90,7 @@ export function Arrivals() {
           </div>
         </div>
         <div>
-          <img src={arrival3} alt="" />
+          <img src={arrival3} alt="" className="cursor-pointer hover:scale-img" />
           <div className="flex flex-row justify-between items-center h-[76px] bg-white-300">
             <div className="flex flex-col">
               <span className="text-black-850 text-xl font-medium">
@@ -57,7 +102,7 @@ export function Arrivals() {
             </div>
             <ArrowRight size={32} color="#797979" />
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   );
