@@ -72,37 +72,6 @@ export function Arrivals() {
             <ArrowRight size={32} color="#797979" />
           </div>
         </div>
-
-        {/* <div>
-          <div className="w-[430px] h-[628px] bg-black-800">
-            <img src={arrival2} alt="" />
-          </div>
-          <div className="flex flex-row justify-between items-center h-[76px] bg-white-300">
-            <div className="flex flex-col">
-              <span className="text-black-850 text-xl font-medium">
-                Coats & Parkas
-              </span>
-              <span className="text-gray-600 text-lg">
-                Explore Now!
-              </span>
-            </div>
-            <ArrowRight size={32} color="#797979" />
-          </div>
-        </div>
-        <div>
-          <img src={arrival3} alt="" className="cursor-pointer hover:scale-img" />
-          <div className="flex flex-row justify-between items-center h-[76px] bg-white-300">
-            <div className="flex flex-col">
-              <span className="text-black-850 text-xl font-medium">
-                Tees & T-Shirt
-              </span>
-              <span className="text-gray-600 text-lg">
-                Explore Now!
-              </span>
-            </div>
-            <ArrowRight size={32} color="#797979" />
-          </div>
-        </div> */}
       </div>
     </section>
   );
