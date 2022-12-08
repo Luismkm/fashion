@@ -1,4 +1,5 @@
 import woman from '../../../assets/woman.png';
+import { ShopNow } from '../../../components/btn-shop';
 
 export function Sale() {
   return (
@@ -26,9 +27,7 @@ export function Sale() {
           <span className="block text-xl mb-6">
             *Terms & Conditions apply
           </span>
-          <button className="w-[165px] h-[61px] text-white-100 bg-black-900 rounded-md font-medium text-[1.375rem] mb-[67px] mt-[23px]">
-            SHOP NOW
-          </button>
+          <ShopNow />
         </div>
       </div>
     </section>

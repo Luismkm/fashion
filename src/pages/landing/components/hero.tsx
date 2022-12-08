@@ -1,5 +1,6 @@
 import detail from '../../../assets/detail.svg';
 import woman1 from '../../../assets/woman1.png';
+import { ShopNow } from '../../../components/btn-shop';
 
 export function Hero() {
   return (
@@ -26,9 +27,7 @@ export function Hero() {
           </span>
           <div className="flex flex-row">
             <img src={detail} alt="" className="mr-8" />
-            <button className="w-[165px] h-[61px] text-white-100 bg-black-900 rounded-md font-medium text-[1.375rem] mb-[67px] mt-[23px]">
-              SHOP NOW
-            </button>
+            <ShopNow />
           </div>
         </div>
       </div>
