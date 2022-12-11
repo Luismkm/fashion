@@ -5,7 +5,7 @@
 ## 📋 Sobre
 
 <p>Landing page desenvolvido afim de fortalecer meus conhecimentos.</p>
-<p>Encontrei esse Layout na web, infelizmente não possui a versão mobile, então não fiz a responsividade.</p>
+<p>Encontrei esse Layout na web, infelizmente não possui a versão mobile.</p>
 
 <br />
 
