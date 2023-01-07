@@ -10,7 +10,7 @@ import { Promo } from './components/promo';
 
 export function Landing() {
   return (
-    <div className="max-w-[1440px] h-screen mx-auto">
+    <div className="max-w-[1440px] h-auto mx-auto">
       <Header />
       <Hero />
       <Brand />
