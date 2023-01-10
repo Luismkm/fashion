@@ -4,7 +4,7 @@ import { ShopNow } from '../../../components/btn-shop';
 
 export function Hero() {
   return (
-    <section className="flex flex-row w-full max-w-[1290px] h-auto lg:h-[638px] mx-auto pt-[58px] mt-6">
+    <section className="flex flex-row w-full max-w-[1120px] h-auto lg:h-[638px] mx-auto pt-[58px] mt-6">
       <div className="flex flex-col">
         <div className="flex flex-col items-center lg:items-start w-screen lg:w-[495px] lg:ml-[33px] relative">
           <h1 className="text-[2.5rem] ss:text-[3rem] sm:text-[3.5rem] md:text-7xl font-black leading-[62px] sm:leading-[75px] md:leading-[100px] text-center lg:text-start">

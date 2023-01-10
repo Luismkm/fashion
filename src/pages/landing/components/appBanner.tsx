@@ -4,7 +4,7 @@ import googlePlay from '../../../assets/google_play.png';
 
 export function AppBanner() {
   return (
-    <section className="max-w-[1290px] mx-auto flex justify-between items-center pl-36 pt-28 pb-28">
+    <section className="max-w-[1120px] mx-auto flex justify-between items-center pl-36 pt-28 pb-28">
       <div>
         <strong className="text-4xl font-black leading-[150%] mb-10 block">
           DOWNLOAD APP &

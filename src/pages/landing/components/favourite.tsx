@@ -7,7 +7,7 @@ import detail from '../../../assets/detail.svg';
 
 export function Favourite() {
   return (
-    <section className="max-w-[1290px] mx-auto">
+    <section className="max-w-[1120px] mx-auto">
       <div className="relative h-[80px] mt-20 mb-24">
         <img src={detail} alt="" className="absolute bottom-[26px] left-[260px] -z-10" />
         <strong className="block text-5xl">

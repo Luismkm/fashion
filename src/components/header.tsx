@@ -3,7 +3,7 @@ import logo from '../assets/logo.svg';
 
 export function Header() {
   return (
-    <header className="flex flex-row justify-between items-center sm:w-full max-w-[1290px] h-[46.5px] mt-10 sm:px-6 px-6">
+    <header className="flex flex-row justify-between items-center sm:w-full max-w-[1120px] h-[46.5px] mx-auto mt-[18px] px-4 xl:px-0">
       <img
         src={logo}
         alt="logo da Fashion"

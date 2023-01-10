@@ -7,7 +7,7 @@ export function Footer() {
   return (
     <footer className="max-w-[1490px] flex bg-black-900 h-[350px] justify-center text-white-100">
       <div className="flex items-center">
-        <div className="w-[1290px] mx-auto grid grid-cols-6 gap-2 items-start">
+        <div className="w-[1120px] mx-auto grid grid-cols-6 gap-2 items-start">
           <div className="col-span-3">
             <strong className="font-black text-4xl">
               FASHION

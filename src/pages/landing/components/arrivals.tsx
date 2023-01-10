@@ -8,7 +8,7 @@ import detail from '../../../assets/detail_arrivals.svg';
 
 export function Arrivals() {
   return (
-    <section className="px-4 max-w-[1290px] mx-auto mt-[69px]">
+    <section className="xl:px-4 max-w-[1120px] mx-auto mt-[69px]">
       <div className="relative w-[254px] ss:w-[302px] sm:w-[322px] md:w-[384px]">
         <img src={detail} alt="" className="absolute -z-10 right-0 bottom-[6px] ss:bottom-[7px] md:bottom-[10px] lg:-bottom-[2px] w-[115px] ss:w-[137px] sm:w-[146px] md:w-[174px] lg:md:w-[177px]" />
         <strong className="text-[2rem] ss:text-[38px] sm:text-[2.5rem] md:text-[3rem] lg:text-5xl font-black mb-[92px] block">
