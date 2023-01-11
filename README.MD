@@ -5,7 +5,7 @@
 ## 📋 Sobre
 
 <p>Landing page desenvolvido afim de fortalecer meus conhecimentos.</p>
-<p>Encontrei esse Layout na web, infelizmente não possui a versão mobile.</p>
+<p>Encontrei esse Layout na web, responsividade em fase de desenvolvimento.</p>
 
 <br />
 
@@ -18,6 +18,10 @@
 <br />
 
 ## 🎨 Layout
+
+<br />
+
+[Acessar Deploy](https://fashion-luismkm.netlify.app/)
 
 [Acessar Layout no Figma](https://www.figma.com/community/file/1135871952737326157)
 
