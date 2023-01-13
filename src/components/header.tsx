@@ -32,7 +32,14 @@ export function Header() {
       </div>
 
       <div className="md:hidden">
-        <List size={32} color="#9141ac" weight="bold" />
+        <List
+          size={32}
+          color="#9141ac"
+          weight="bold"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasRight"
+          aria-controls="offcanvasRight"
+        />
       </div>
     </header>
   );
