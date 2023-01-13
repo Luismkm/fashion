@@ -22,10 +22,10 @@ export function Footer() {
                 clothes from us.
               </p>
               <div className="w-auto flex flex-row gap-3 my-9">
-                <img src={facebook} alt="" />
-                <img src={instagram} alt="" />
-                <img src={twitter} alt="" />
-                <img src={linkedin} alt="" />
+                <a href="#"><img src={facebook} alt="" /></a>
+                <a href="#"><img src={instagram} alt="" /></a>
+                <a href="#"><img src={twitter} alt="" /></a>
+                <a href="#"><img src={linkedin} alt="" /></a>
               </div>
             </div>
           </div>
@@ -34,26 +34,26 @@ export function Footer() {
             <div>
               <ul className="text-sm lg:text-base font-roboto text-gray-550">
                 <li className="text-gray-400">Company</li>
-                <li className="mt-6">About</li>
-                <li className="mt-6">Contact us</li>
-                <li className="mt-6">Support</li>
-                <li className="mt-6">Careers</li>
+                <a href="#"><li className="mt-6">About</li></a>
+                <a href="#"><li className="mt-6">Contact us</li></a>
+                <a href="#"><li className="mt-6">Support</li></a>
+                <a href="#"><li className="mt-6">Careers</li></a>
               </ul>
             </div>
             <div>
               <ul className="text-sm lg:text-base font-roboto text-gray-550">
                 <li className="text-gray-400">Quick Link</li>
-                <li className="mt-6">Share Location</li>
-                <li className="mt-6">Orders Tracking</li>
-                <li className="mt-6">Size Guide</li>
-                <li className="mt-6">FAQs</li>
+                <a href="#"><li className="mt-6">Share Location</li></a>
+                <a href="#"><li className="mt-6">Orders Tracking</li></a>
+                <a href="#"><li className="mt-6">Size Guide</li></a>
+                <a href="#"><li className="mt-6">FAQs</li></a>
               </ul>
             </div>
             <div>
               <ul className="text-sm lg:text-base font-roboto text-gray-550">
                 <li className="text-gray-400">Legal</li>
-                <li className="mt-6">Terms & conditions</li>
-                <li className="mt-6">Privacy Policy</li>
+                <a href="#"><li className="mt-6">Terms & conditions</li></a>
+                <a href="#"><li className="mt-6">Privacy Policy</li></a>
               </ul>
             </div>
           </div>

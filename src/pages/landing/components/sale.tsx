@@ -14,10 +14,10 @@ export function Sale() {
           <div className="relative w-[201px] ss:w-[222px] sm:w-[228px] md:w-[356px]">
             <div className="bg-white-100 w-[202px] ss:w-[222px] sm:w-[234px] md:w-[356px] h-[57px] sm:h-[67px] md:h-[88px] origin-bottom -rotate-2 absolute z-0" />
           </div>
-          <h2 className="text-[2.5rem] ss:text-[44px] sm:text-5xl md:text-7xl font-black leading-[55px] ss:leading-[60px] sm:leading-[66px] md:leading-[90px] relative z-1">
+          <h2 className="text-[2.5rem] ss:text-[2.75rem] sm:text-5xl md:text-7xl font-black leading-[55px] ss:leading-[60px] sm:leading-[66px] md:leading-[90px] relative z-1">
             PAYDAY
           </h2>
-          <h2 className="text-[2.5rem] ss:text-[44px] sm:text-5xl md:text-7xl font-black leading-[55px] ss:leading-[60px] sm:leading-[66px] md:leading-[90px]">
+          <h2 className="text-[2.5rem] ss:text-[2.75rem] sm:text-5xl md:text-7xl font-black leading-[55px] ss:leading-[60px] sm:leading-[66px] md:leading-[90px]">
             SALE NOW
           </h2>
           <p className="font-medium text-base ss:text-xl sm:text-2xl leading-8 md:leading-[36px] mt-[33px]">

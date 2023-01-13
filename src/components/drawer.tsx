@@ -14,16 +14,16 @@ function Drawer() {
         <nav>
           <ul className="flex flex-col gap-12 mt-[60px] text-center font-bold text-2xl text-black-900">
             <li data-bs-dismiss="offcanvas" aria-label="Close">
-              <a href="#">CATALOGUE</a>
+              <NavLink to="/">CATALOGUE</NavLink>
             </li>
             <li data-bs-dismiss="offcanvas" aria-label="Close">
-              <a href="#">FASHION</a>
+              <NavLink to="/">FASHION</NavLink>
             </li>
             <li data-bs-dismiss="offcanvas" aria-label="Close">
-              <a href="#">FAVOURITE</a>
+              <NavLink to="/">FAVOURITE</NavLink>
             </li>
             <li data-bs-dismiss="offcanvas" aria-label="Close">
-              <a href="#">LIFESTYLE</a>
+              <NavLink to="/">LIFESTYLE</NavLink>
             </li>
 
           </ul>

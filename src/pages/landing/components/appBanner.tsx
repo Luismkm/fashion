@@ -6,7 +6,7 @@ export function AppBanner() {
   return (
     <section className="max-w-[1120px] h-[960px] ss:h-[1066px] my-0 sm:my-12 md:my-24 lg:my-0 px-4 mx-auto flex lg:flex-row justify-center items-center">
       <div>
-        <strong className="text-[2rem] ss:text-[38px] sm:text-[2.5rem] md:text-[3rem] leading-[150%] lg:text-[3rem] text-center xl:text-start font-black  mb-10 block">
+        <strong className="text-[2rem] ss:text-[2.375rem] sm:text-[2.5rem] md:text-[3rem] leading-[150%] lg:text-[3rem] text-center xl:text-start font-black  mb-10 block">
           DOWNLOAD APP &
           <br />
           GET THE VOUCHER!
@@ -20,8 +20,13 @@ export function AppBanner() {
           Rondovision mobile app for now.
         </p>
         <div className="flex flex-row justify-center xl:justify-start gap-4 h-[54px]">
-          <img src={appleStore} alt="" />
-          <img src={googlePlay} alt="" />
+          <a href="#">
+            <img src={appleStore} className="w-[155px] h-[54px]" alt="botao com o logo da Apple" />
+          </a>
+          <a href="#">
+            <img src={googlePlay} className="w-[155px] h-[54px]" alt="botao com o logo da GooglePlay" />
+          </a>
+
         </div>
       </div>
       <div className="hidden lg:block max-w-[560px] bg-white-100">

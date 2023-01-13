@@ -1,7 +1,7 @@
 export function Promo() {
   return (
     <section className="max-w-[1490px] mx-auto flex flex-col justify-center items-center px-4 bg-yellow-550 h-[450px]">
-      <h3 className="w-auto font-black text-white-100 text-[30px] ss:text-[34px] xl:text-5xl text-center leading-[45px] ss:leading-[52px] xl:leading-[70px]">
+      <h3 className="w-auto font-black text-white-100 text-[1.875rem] ss:text-[2.125rem] xl:text-5xl text-center leading-[45px] ss:leading-[52px] xl:leading-[70px]">
         JOIN SHOPPING COMMUNITY TO
         <br />
         GET MONTHLY PROMO

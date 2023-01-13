@@ -1,8 +1,11 @@
-import { Landing } from './pages/landing';
+import { BrowserRouter } from 'react-router-dom';
+import { Router } from './Router';
 
 function App() {
   return (
-    <Landing />
+    <BrowserRouter>
+      <Router />
+    </BrowserRouter>
   );
 }
 
