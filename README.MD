@@ -4,8 +4,9 @@
 
 ## 📋 Sobre
 
-<p>Landing page desenvolvido afim de fortalecer meus conhecimentos.</p>
-<p>Encontrei esse Layout na web, responsividade em fase de desenvolvimento.</p>
+<p>Landing page desenvolvido com o propósito de aprimorar meus conhecimentos.</p>
+<p>Encontrei esse Layout na web, estava com tamanhos desproporcionais e sem a versão mobile.</p>
+<p>Utilizei minha experiência para redefinir os tamanhos e fiz a responsividade.</p>
 
 <br />
 
