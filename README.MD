@@ -6,7 +6,7 @@
 
 <p>Landing page desenvolvido com o propósito de aprimorar meus conhecimentos.</p>
 <p>Encontrei esse Layout na web, estava com tamanhos desproporcionais e sem a versão mobile.</p>
-<p>Utilizei minha experiência para redefinir os tamanhos e fiz a responsividade.</p>
+<p>Utilizei minha experiência para redefinir os tamanhos e fiz a responsividade/componentização.</p>
 
 <br />
 
