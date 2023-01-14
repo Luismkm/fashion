@@ -12,7 +12,7 @@ export function Sale() {
       <div className="bg-yellow-gradient -ml-[1px] relative lg:pl-10">
         <div className="flex flex-col justify-center xl:justify-start items-center xl:items-start text-center xl:text-start py-10 px-14 lg:pl-0 lg:pr-10 mx-auto md:ml-16 md:mt-20">
           <div className="relative w-[201px] ss:w-[222px] sm:w-[228px] md:w-[356px]">
-            <div className="bg-white-100 w-[202px] ss:w-[222px] sm:w-[234px] md:w-[356px] h-[57px] sm:h-[67px] md:h-[88px] origin-bottom -rotate-2 absolute z-0" />
+            <div className="bg-white-100 w-[202px] ss:w-[222px] sm:w-[234px] md:w-[356px] h-[57px] sm:h-[67px] md:h-[88px] xl:-ml-3 origin-bottom -rotate-2 absolute z-0" />
           </div>
           <h2 className="text-[2.5rem] ss:text-[2.75rem] sm:text-5xl md:text-7xl font-black leading-[55px] ss:leading-[60px] sm:leading-[66px] md:leading-[90px] relative z-1">
             PAYDAY
