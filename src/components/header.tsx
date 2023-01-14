@@ -34,7 +34,7 @@ export function Header() {
       <div className="md:hidden">
         <List
           size={32}
-          color="#000"
+          color="#9141ac"
           weight="bold"
           data-bs-toggle="offcanvas"
           data-bs-target="#offcanvasRight"
