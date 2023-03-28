@@ -4,9 +4,11 @@
 
 ## 📋 Sobre
 
-<p>Landing page desenvolvido com o propósito de aprimorar meus conhecimentos.</p>
-<p>Encontrei esse Layout na web, estava com tamanhos desproporcionais e sem a versão mobile.</p>
-<p>Utilizei minha experiência para redefinir os tamanhos e fiz a responsividade/componentização.</p>
+<p>Eu estava em busca de um novo desafio para aprimorar meus conhecimentos em desenvolvimento web quando me deparei com um layout interessante na web. Mas, ao baixá-lo, percebi que os tamanhos estavam desproporcionais e não havia uma versão mobile disponível.</p>
+
+<p>Mesmo assim, eu sabia que podia fazer algo incrível com ele. Então, utilizei toda a minha experiência e habilidade para redefinir os tamanhos e criar uma versão responsiva e componentizada desse layout.</p>
+
+<p>Foi um processo desafiador, mas a satisfação de ver a landing page tomando forma foi indescritível. Espero que essa criação inspire outros desenvolvedores a também buscarem novos desafios e aprimorarem suas habilidades.</p>
 
 <br />
 
